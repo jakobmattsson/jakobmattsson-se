@@ -1,0 +1,17 @@
+{
+  "name": "jakobmattsson.se",
+  "description": "Personal web page",
+  "version": "0.1.0",
+  "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
+  "bucketful": {
+    "bucket": "www.jakobmattsson.se",
+    "exclude": ["index.html"],
+    "opra": {
+      "inline": true
+    }
+  },
+  "scripts": {
+    "start": "opra public",
+    "deploy": "bucketful"
+  }
+}
